@@ -1,2 +1,2 @@
-FROM nginx:alpine
-COPY site /usr/share/nginx/html
+FROM php:7.2-apache
+COPY site/ /var/www/html/
